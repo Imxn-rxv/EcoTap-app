@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTap - Trash to Transit</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>EcoTap</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#contact" class="btn-primary">Get Started</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="badge">
+                <i class="fas fa-rocket"></i>
+                AMD Ryzen AI Powered Solution
+            </div>
+            <h1>Turn Your <span class="highlight">Recyclables</span> Into <span class="highlight-green">Transit Credits</span></h1>
+            <p class="hero-subtitle">The first direct link between circular economy and urban mobility. Deposit recyclables at smart bins and earn instant fare discounts for public transport.</p>
+            <div class="hero-buttons">
+                <a href="#demo" class="btn-primary btn-large">
+                    <i class="fas fa-play"></i> Try Demo
+                </a>
+                <a href="#how-it-works" class="btn-secondary btn-large">
+                    <i class="fas fa-info-circle"></i> Learn More
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">₹5</span>
+                    <span class="stat-label">per Bottle</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">$0.10</span>
+                    <span class="stat-label">per Can</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Edge Privacy</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="smart-bin">
+                <div class="bin-body">
+                    <div class="bin-screen">
+                        <div class="screen-content">
+                            <i class="fas fa-recycle"></i>
+                            <span>Ready</span>
+                        </div>
+                    </div>
+                    <div class="scan-area">
+                        <div class="scan-line"></div>
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="nfc-zone">
+                        <i class="fas fa-wifi"></i>
+                        <span>Tap Card Here</parameter>
+</div>
+                </div>
+                <div class="bin-glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="section-header">
+            <h2>How EcoTap Works</h2>
+            <p>Simple steps to earn transit credits while saving the planet</p>
+        </div>
+        <div class="process-flow">
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="step-number">01</div>
+                <h3>Approach</h3>
+                <p>User approaches the Smart EcoTap Bin at bus/metro station with recyclables</p>
+            </div>
+            <div class="arrow">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <div class="step-number">02</div>
+                <h3>Scan & Verify</h3>
+                <p>AI-powered computer vision identifies PET bottles or aluminum cans in real-time</p>
+            </div>
+            <div class="arrow">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <div class="step-number">03</div>
+                <h3>Verify & Credit</h3>
+                <p>System validates item and instantly credits the transit card via NFC</p>
+            </div>
+            <div class="arrow">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-bus"></i>
+                </div>
+                <div class="step-number">04</div>
+                <h3>Ride</h3>
+                <p>User boards the bus/metro with discounted fare using earned credits</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="section-header">
+            <h2>Powerful Features</h2>
+            <p>Built with AMD Ryzen AI for edge-native performance</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h3>Real-Time AI Verification</h3>
+                <p>YOLOv8 computer vision instantly distinguishes between recyclable PET bottles, aluminum cans, and general waste with 99% accuracy.</p>
+                <div class="feature-tag">AMD Ryzen AI NPU</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-wifi"></i>
+                </div>
+                <h3>NFC Tap-to-Earn</h3>
+                <p>Instant NFC/RFID integration with standard metro and bus cards. Credits appear immediately upon successful deposit.</p>
+                <div class="feature-tag">MFRC522 Module</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Fraud Detection</h3>
+                <p>Advanced motion analysis prevents trickery with photos or item retrieval attempts. Ensures genuine recycling only.</p>
+                <div class="feature-tag">ML-Powered</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Smart Telemetry</h3>
+                <p>IoT sensors alert waste management when bins reach 90% capacity, optimizing pickup routes and saving fuel.</p>
+                <div class="feature-tag">IoT Enabled</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+                <h3>Carbon Dashboard</h3>
+                <p>Track personal carbon offsets, total savings, and environmental impact through our mobile app.</p>
+                <div class="feature-tag">React Native</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-user-secret"></i>
+                </div>
+                <h3>Privacy First</h3>
+                <p>All video processing happens locally on AMD Ryzen AI NPU. No surveillance footage ever sent to the cloud.</p>
+                <div class="feature-tag">Edge Computing</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Demo Section -->
+    <section id="demo" class="demo-section">
+        <div class="section-header">
+            <h2>Try the EcoTap Demo</h2>
+            <p>Experience how easy it is to earn transit credits</p>
+        </div>
+        <div class="demo-container">
+            <div class="demo-screen">
+                <div class="screen-header">
+                    <div class="screen-title">
+                        <i class="fas fa-recycle"></i>
+                        EcoTap Smart Bin
+                    </div>
+                    <div class="screen-status">
+                        <span class="status-dot"></span>
+                        AMD Ryzen AI Active
+                    </div>
+                </div>
+                <div class="bin-simulation">
+                    <div class="deposit-slot">
+                        <i class="fas fa-trash-alt"></i>
+                        <span>Deposit Zone</span>
+                    </div>
+                    <div class="camera-lens">
+                        <div class="lens-ring"></div>
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="detection-status">
+                        <span id="detection-text">Waiting for item...</span>
+                    </div>
+                </div>
+                <div class="action-buttons">
+                    <button class="deposit-btn" id="deposit-bottle" onclick="depositItem('bottle')">
+                        <i class="fas fa-wine-bottle"></i>
+                        Deposit Bottle
+                    </button>
+                    <button class="deposit-btn" id="deposit-can" onclick="depositItem('can')">
+                        <i class="fas fa-can-food"></i>
+                        Deposit Can
+                    </button>
+                    <button class="deposit-btn reject" id="deposit-trash" onclick="depositItem('trash')">
+                        <i class="fas fa-trash"></i>
+                        Deposit Trash
+                    </button>
+                </div>
+            </div>
+            
+            <div class="demo-results">
+                <div class="user-card">
+                    <div class="card-header">
+                        <i class="fas fa-id-card"></i>
+                        Transit Card
+                    </div>
+                    <div class="card-number">**** **** **** 4289</div>
+                    <div class="card-balance">
+                        <div class="balance-item">
+                            <span class="balance-label">Current Balance</span>
+                            <span class="balance-value" id="transit-balance">₹0</span>
+                        </div>
+                        <div class="balance-item">
+                            <span class="balance-label">Total Earned</span>
+                            <span class="balance-value" id="total-earned">₹0</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stats-panel">
+                    <div class="panel-header">
+                        <i class="fas fa-chart-bar"></i>
+                        Session Stats
+                    </div>
+                    <div class="stat-row">
+                        <span>Bottles Recycled</span>
+                        <span id="bottles-count">0</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>Cans Recycled</span>
+                        <span id="cans-count">0</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>Items Rejected</span>
+                        <span id="rejected-count">0</span>
+                    </div>
+                    <div class="stat-row highlight">
+                        <span>CO₂ Saved</span>
+                        <span id="co2-saved">0 kg</span>
+                    </div>
+                </div>
+                
+                <div class="log-panel">
+                    <div class="panel-header">
+                        <i class="fas fa-list"></i>
+                        Transaction Log
+                    </div>
+                    <div class="log-entries" id="transaction-log">
+                        <div class="log-entry system">System initialized - AMD Ryzen AI ready</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AMD Integration Section -->
+    <section class="amd-section">
+        <div class="amd-content">
+            <div class="amd-badge">
+                <i class="fas fa-microchip"></i>
+                Powered by AMD Ryzen AI
+            </div>
+            <h2>Why AMD Ryzen AI?</h2>
+            <div class="amd-features">
+                <div class="amd-feature">
+                    <div class="amd-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h4>Ultra-Low Latency</h4>
+                    <p>Instant object recognition with dedicated NPU</p>
+                </div>
+                <div class="amd-feature">
+                    <div class="amd-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h4>Low Power</h4>
+                    <p>Sustainable computing at the edge</p>
+                </div>
+                <div class="amd-feature">
+                    <div class="amd-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Privacy</h4>
+                    <p>Local processing - no cloud surveillance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta-section">
+        <div class="cta-content">
+            <h2>Ready to Transform Urban Mobility?</h2>
+            <p>Join us in bridging the circular economy with public transit</p>
+            <div class="cta-buttons">
+                <button class="btn-primary btn-large">
+                    <i class="fas fa-envelope"></i>
+                    Contact Us
+                </button>
+                <button class="btn-secondary btn-large">
+                    <i class="fas fa-file-alt"></i>
+                    View Full Proposal
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-leaf"></i>
+                <span>EcoTap</span>
+            </div>
+            <p>© 2026 EcoTap - Trash to Transit Bridge</p>
+            <p>AMD Slingshot Hackathon Submission</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
